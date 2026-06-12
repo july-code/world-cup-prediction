@@ -10,7 +10,14 @@
       "Bash(openspec status *)",
       "Bash(openspec instructions *)",
       "Bash(python -c \"import json; data = json.load\\(open\\('data.json', 'r', encoding='utf-8'\\)\\); print\\('✓ JSON格式有效'\\); print\\(f'✓ 比赛数据: {len\\(data[\\\\\"matches\\\\\"]\\)} 个日期'\\); print\\(f'✓ 待填充比赛: {len\\(data[\\\\\"pendingMatches\\\\\"]\\)} 场'\\); print\\(f'✓ 模型准确率: {len\\(data[\\\\\"modelAccuracy\\\\\"]\\)} 个模型'\\)\")",
-      "Bash(python -c \"import json; data = json.load\\(open\\('data.json', 'r', encoding='utf-8'\\)\\); print\\('JSON valid'\\); print\\(f'Matches: {len\\(data[\\\\\"matches\\\\\"]\\)} dates'\\); print\\(f'Pending: {len\\(data[\\\\\"pendingMatches\\\\\"]\\)} matches'\\); print\\(f'Models: {len\\(data[\\\\\"modelAccuracy\\\\\"]\\)} models'\\)\")"
+      "Bash(python -c \"import json; data = json.load\\(open\\('data.json', 'r', encoding='utf-8'\\)\\); print\\('JSON valid'\\); print\\(f'Matches: {len\\(data[\\\\\"matches\\\\\"]\\)} dates'\\); print\\(f'Pending: {len\\(data[\\\\\"pendingMatches\\\\\"]\\)} matches'\\); print\\(f'Models: {len\\(data[\\\\\"modelAccuracy\\\\\"]\\)} models'\\)\")",
+      "Bash(openspec list *)",
+      "Bash(mkdir -p openspec/specs/prediction-dashboard)",
+      "Bash(mkdir -p openspec/specs/results-summary)",
+      "Bash(cp openspec/changes/worldcup-web-dashboard/specs/prediction-dashboard/spec.md openspec/specs/prediction-dashboard/spec.md)",
+      "Bash(cp openspec/changes/worldcup-web-dashboard/specs/results-summary/spec.md openspec/specs/results-summary/spec.md)",
+      "Bash(mkdir -p openspec/changes/archive)",
+      "Bash(mv openspec/changes/worldcup-web-dashboard openspec/changes/archive/2026-06-12-worldcup-web-dashboard)"
     ]
   }
 }
