@@ -1,14 +1,224 @@
-// Load data and initialize the application
-document.addEventListener('DOMContentLoaded', async () => {
-    try {
-        const response = await fetch('data.json');
-        const data = await response.json();
-        initDashboard(data);
-    } catch (error) {
-        console.error('Error loading data:', error);
-        document.getElementById('matches-container').innerHTML =
-            '<p style="color: #ff6b6b; text-align: center;">加载数据失败，请刷新页面重试。</p>';
+// Embedded data
+const worldCupData = {
+  "lastUpdated": "2026年6月12日",
+  "models": ["Gemini", "GPT", "DeepSeek", "智谱"],
+  "statistics": {
+    "totalPredictions": 4,
+    "completedMatches": 2,
+    "pendingMatches": 20,
+    "modelCount": 4
+  },
+  "matches": [
+    {
+      "date": "2026年6月11日",
+      "dateKey": "20260611",
+      "matches": [
+        {
+          "id": "mexico-vs-south-africa",
+          "homeTeam": "墨西哥",
+          "homeFlag": "🇲🇽",
+          "awayTeam": "南非",
+          "awayFlag": "🇿🇦",
+          "group": "A组",
+          "actualScore": "2-0",
+          "hasResult": true,
+          "predictions": [
+            {
+              "model": "Gemini",
+              "homeWin": 64,
+              "draw": 23,
+              "awayWin": 13,
+              "top1": {"score": "2-0", "probability": 26, "hit": true},
+              "top2": {"score": "2-1", "probability": 18, "hit": false},
+              "top3": {"score": "1-0", "probability": 15, "hit": false}
+            },
+            {
+              "model": "GPT",
+              "homeWin": 63,
+              "draw": 24,
+              "awayWin": 13,
+              "top1": {"score": "1-0", "probability": 18, "hit": false},
+              "top2": {"score": "2-0", "probability": 15, "hit": true},
+              "top3": {"score": "1-1", "probability": 13, "hit": false}
+            },
+            {
+              "model": "DeepSeek",
+              "homeWin": 71.2,
+              "draw": 20.5,
+              "awayWin": 8.3,
+              "top1": {"score": "2-0", "probability": 32.4, "hit": true},
+              "top2": {"score": "1-0", "probability": 26.1, "hit": false},
+              "top3": {"score": "2-1", "probability": 18.7, "hit": false}
+            },
+            {
+              "model": "智谱",
+              "homeWin": 72,
+              "draw": 20,
+              "awayWin": 8,
+              "top1": {"score": "2-0", "probability": 31, "hit": true},
+              "top2": {"score": "2-1", "probability": 26, "hit": false},
+              "top3": {"score": "1-0", "probability": 15, "hit": false}
+            }
+          ]
+        },
+        {
+          "id": "korea-vs-czech",
+          "homeTeam": "韩国",
+          "homeFlag": "🇰🇷",
+          "awayTeam": "捷克",
+          "awayFlag": "🇨🇿",
+          "group": "A组",
+          "actualScore": "2-1",
+          "hasResult": true,
+          "predictions": [
+            {
+              "model": "Gemini",
+              "homeWin": 38,
+              "draw": 31,
+              "awayWin": 31,
+              "top1": {"score": "1-1", "probability": 16, "hit": false},
+              "top2": {"score": "2-1", "probability": 13, "hit": true},
+              "top3": {"score": "1-2", "probability": 11, "hit": false}
+            },
+            {
+              "model": "GPT",
+              "homeWin": 45,
+              "draw": 28,
+              "awayWin": 27,
+              "top1": {"score": "1-0", "probability": 17, "hit": false},
+              "top2": {"score": "1-1", "probability": 15, "hit": false},
+              "top3": {"score": "2-1", "probability": 12, "hit": true}
+            },
+            {
+              "model": "DeepSeek",
+              "homeWin": 38.7,
+              "draw": 34.2,
+              "awayWin": 27.1,
+              "top1": {"score": "1-1", "probability": 28.3, "hit": false},
+              "top2": {"score": "1-0", "probability": 19.5, "hit": false},
+              "top3": {"score": "0-1", "probability": 14.8, "hit": false}
+            },
+            {
+              "model": "智谱",
+              "homeWin": 38,
+              "draw": 35,
+              "awayWin": 27,
+              "top1": {"score": "1-1", "probability": 21, "hit": false},
+              "top2": {"score": "1-2", "probability": 17, "hit": false},
+              "top3": {"score": "2-1", "probability": 14, "hit": true}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026年6月12日",
+      "dateKey": "20260612",
+      "matches": [
+        {
+          "id": "canada-vs-bosnia",
+          "homeTeam": "加拿大",
+          "homeFlag": "🇨🇦",
+          "awayTeam": "波黑",
+          "awayFlag": "🇧🇦",
+          "group": "B组",
+          "actualScore": null,
+          "hasResult": false,
+          "predictions": [
+            {
+              "model": "Gemini",
+              "homeWin": 48,
+              "draw": 29,
+              "awayWin": 23,
+              "top1": {"score": "2-1", "probability": 19, "hit": null},
+              "top2": {"score": "1-1", "probability": 15, "hit": null},
+              "top3": {"score": "1-0", "probability": 12, "hit": null}
+            },
+            {
+              "model": "GPT",
+              "homeWin": 52,
+              "draw": 27,
+              "awayWin": 21,
+              "top1": {"score": "1-0", "probability": 19, "hit": null},
+              "top2": {"score": "1-1", "probability": 15, "hit": null},
+              "top3": {"score": "2-1", "probability": 12, "hit": null}
+            },
+            {
+              "model": "DeepSeek",
+              "homeWin": 48.3,
+              "draw": 32.5,
+              "awayWin": 19.2,
+              "top1": {"score": "1-0", "probability": 29.5, "hit": null},
+              "top2": {"score": "1-1", "probability": 25.8, "hit": null},
+              "top3": {"score": "0-0", "probability": 15.2, "hit": null}
+            },
+            {
+              "model": "智谱",
+              "homeWin": 48.3,
+              "draw": 32.5,
+              "awayWin": 19.2,
+              "top1": {"score": "1-0", "probability": 29.5, "hit": null},
+              "top2": {"score": "1-1", "probability": 25.8, "hit": null},
+              "top3": {"score": "0-0", "probability": 15.2, "hit": null}
+            }
+          ]
+        },
+        {
+          "id": "usa-vs-paraguay",
+          "homeTeam": "美国",
+          "homeFlag": "🇺🇸",
+          "awayTeam": "巴拉圭",
+          "awayFlag": "🇵🇾",
+          "group": "D组",
+          "actualScore": null,
+          "hasResult": false,
+          "predictions": [
+            {
+              "model": "Gemini",
+              "homeWin": 53,
+              "draw": 28,
+              "awayWin": 19,
+              "top1": {"score": "2-1", "probability": 21, "hit": null},
+              "top2": {"score": "1-0", "probability": 17, "hit": null},
+              "top3": {"score": "1-1", "probability": 14, "hit": null}
+            },
+            {
+              "model": "GPT",
+              "homeWin": 54,
+              "draw": 26,
+              "awayWin": 20,
+              "top1": {"score": "2-1", "probability": 17, "hit": null},
+              "top2": {"score": "1-0", "probability": 15, "hit": null},
+              "top3": {"score": "1-1", "probability": 13, "hit": null}
+            },
+            {
+              "model": "DeepSeek",
+              "homeWin": 54.1,
+              "draw": 27.6,
+              "awayWin": 18.3,
+              "top1": {"score": "2-0", "probability": 30.3, "hit": null},
+              "top2": {"score": "1-0", "probability": 26.5, "hit": null},
+              "top3": {"score": "1-1", "probability": 18.7, "hit": null}
+            },
+            {
+              "model": "智谱",
+              "homeWin": 62,
+              "draw": 26,
+              "awayWin": 12,
+              "top1": {"score": "2-0", "probability": 27, "hit": null},
+              "top2": {"score": "2-1", "probability": 22, "hit": null},
+              "top3": {"score": "1-0", "probability": 13, "hit": null}
+            }
+          ]
+        }
+      ]
     }
+  ]
+};
+
+// Initialize the application
+document.addEventListener('DOMContentLoaded', () => {
+    initDashboard(worldCupData);
 });
 
 function initDashboard(data) {
