@@ -5,7 +5,12 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(git remote *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(openspec new *)",
+      "Bash(openspec status *)",
+      "Bash(openspec instructions *)",
+      "Bash(python -c \"import json; data = json.load\\(open\\('data.json', 'r', encoding='utf-8'\\)\\); print\\('✓ JSON格式有效'\\); print\\(f'✓ 比赛数据: {len\\(data[\\\\\"matches\\\\\"]\\)} 个日期'\\); print\\(f'✓ 待填充比赛: {len\\(data[\\\\\"pendingMatches\\\\\"]\\)} 场'\\); print\\(f'✓ 模型准确率: {len\\(data[\\\\\"modelAccuracy\\\\\"]\\)} 个模型'\\)\")",
+      "Bash(python -c \"import json; data = json.load\\(open\\('data.json', 'r', encoding='utf-8'\\)\\); print\\('JSON valid'\\); print\\(f'Matches: {len\\(data[\\\\\"matches\\\\\"]\\)} dates'\\); print\\(f'Pending: {len\\(data[\\\\\"pendingMatches\\\\\"]\\)} matches'\\); print\\(f'Models: {len\\(data[\\\\\"modelAccuracy\\\\\"]\\)} models'\\)\")"
     ]
   }
 }

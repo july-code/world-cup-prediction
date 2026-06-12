@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏆 2026世界杯 AI预测结果汇总</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="results-styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">🏆 2026世界杯 AI预测</h1>
+            <div class="nav-links">
+                <a href="prediction-dashboard.html" class="nav-link">预测看板</a>
+                <a href="results-summary.html" class="nav-link active">结果汇总</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="page-header">
+            <h1>🏆 2026世界杯 AI预测结果汇总</h1>
+            <p class="subtitle">数据来源：小组赛【第一轮】AI预测结果汇总</p>
+        </header>
+
+        <div id="statistics-container" class="statistics-grid">
+            <!-- Statistics cards will be inserted here -->
+        </div>
+
+        <div id="results-container">
+            <!-- Match results will be dynamically inserted here -->
+        </div>
+
+        <div id="accuracy-container">
+            <!-- Model accuracy table will be inserted here -->
+        </div>
+
+        <div id="pending-container">
+            <!-- Pending matches will be inserted here -->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>数据更新时间：<span id="last-updated"></span></p>
+    </footer>
+
+    <script src="data.json"></script>
+    <script src="results-app.js"></script>
+</body>
+</html>
