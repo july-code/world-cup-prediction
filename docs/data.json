@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026年6月12日",
+  "lastUpdated": "2026年6月13日",
   "models": ["Gemini", "GPT", "DeepSeek", "智谱"],
   "statistics": {
-    "totalPredictions": 4,
-    "completedMatches": 2,
-    "pendingMatches": 20,
+    "totalPredictions": 8,
+    "completedMatches": 4,
+    "pendingMatches": 16,
     "modelCount": 4
   },
   "matches": [
@@ -121,44 +121,44 @@
           "awayTeam": "波黑",
           "awayFlag": "🇧🇦",
           "group": "B组",
-          "actualScore": null,
-          "hasResult": false,
+          "actualScore": "1-1",
+          "hasResult": true,
           "predictions": [
             {
               "model": "Gemini",
               "homeWin": 48,
               "draw": 29,
               "awayWin": 23,
-              "top1": {"score": "2-1", "probability": 19, "hit": null},
-              "top2": {"score": "1-1", "probability": 15, "hit": null},
-              "top3": {"score": "1-0", "probability": 12, "hit": null}
+              "top1": {"score": "2-1", "probability": 19, "hit": false},
+              "top2": {"score": "1-1", "probability": 15, "hit": true},
+              "top3": {"score": "1-0", "probability": 12, "hit": false}
             },
             {
               "model": "GPT",
               "homeWin": 52,
               "draw": 27,
               "awayWin": 21,
-              "top1": {"score": "1-0", "probability": 19, "hit": null},
-              "top2": {"score": "1-1", "probability": 15, "hit": null},
-              "top3": {"score": "2-1", "probability": 12, "hit": null}
+              "top1": {"score": "1-0", "probability": 19, "hit": false},
+              "top2": {"score": "1-1", "probability": 15, "hit": true},
+              "top3": {"score": "2-1", "probability": 12, "hit": false}
             },
             {
               "model": "DeepSeek",
               "homeWin": 48.3,
               "draw": 32.5,
               "awayWin": 19.2,
-              "top1": {"score": "1-0", "probability": 29.5, "hit": null},
-              "top2": {"score": "1-1", "probability": 25.8, "hit": null},
-              "top3": {"score": "0-0", "probability": 15.2, "hit": null}
+              "top1": {"score": "1-0", "probability": 29.5, "hit": false},
+              "top2": {"score": "1-1", "probability": 25.8, "hit": true},
+              "top3": {"score": "0-0", "probability": 15.2, "hit": false}
             },
             {
               "model": "智谱",
               "homeWin": 48.3,
               "draw": 32.5,
               "awayWin": 19.2,
-              "top1": {"score": "1-0", "probability": 29.5, "hit": null},
-              "top2": {"score": "1-1", "probability": 25.8, "hit": null},
-              "top3": {"score": "0-0", "probability": 15.2, "hit": null}
+              "top1": {"score": "1-0", "probability": 29.5, "hit": false},
+              "top2": {"score": "1-1", "probability": 25.8, "hit": true},
+              "top3": {"score": "0-0", "probability": 15.2, "hit": false}
             }
           ]
         },
@@ -169,44 +169,242 @@
           "awayTeam": "巴拉圭",
           "awayFlag": "🇵🇾",
           "group": "D组",
-          "actualScore": null,
-          "hasResult": false,
+          "actualScore": "4-1",
+          "hasResult": true,
           "predictions": [
             {
               "model": "Gemini",
               "homeWin": 53,
               "draw": 28,
               "awayWin": 19,
-              "top1": {"score": "2-1", "probability": 21, "hit": null},
-              "top2": {"score": "1-0", "probability": 17, "hit": null},
-              "top3": {"score": "1-1", "probability": 14, "hit": null}
+              "top1": {"score": "2-1", "probability": 21, "hit": false},
+              "top2": {"score": "1-0", "probability": 17, "hit": false},
+              "top3": {"score": "1-1", "probability": 14, "hit": false}
             },
             {
               "model": "GPT",
               "homeWin": 54,
               "draw": 26,
               "awayWin": 20,
-              "top1": {"score": "2-1", "probability": 17, "hit": null},
-              "top2": {"score": "1-0", "probability": 15, "hit": null},
-              "top3": {"score": "1-1", "probability": 13, "hit": null}
+              "top1": {"score": "2-1", "probability": 17, "hit": false},
+              "top2": {"score": "1-0", "probability": 15, "hit": false},
+              "top3": {"score": "1-1", "probability": 13, "hit": false}
             },
             {
               "model": "DeepSeek",
               "homeWin": 54.1,
               "draw": 27.6,
               "awayWin": 18.3,
-              "top1": {"score": "2-0", "probability": 30.3, "hit": null},
-              "top2": {"score": "1-0", "probability": 26.5, "hit": null},
-              "top3": {"score": "1-1", "probability": 18.7, "hit": null}
+              "top1": {"score": "2-0", "probability": 30.3, "hit": false},
+              "top2": {"score": "1-0", "probability": 26.5, "hit": false},
+              "top3": {"score": "1-1", "probability": 18.7, "hit": false}
             },
             {
               "model": "智谱",
               "homeWin": 62,
               "draw": 26,
               "awayWin": 12,
-              "top1": {"score": "2-0", "probability": 27, "hit": null},
-              "top2": {"score": "2-1", "probability": 22, "hit": null},
-              "top3": {"score": "1-0", "probability": 13, "hit": null}
+              "top1": {"score": "2-0", "probability": 27, "hit": false},
+              "top2": {"score": "2-1", "probability": 22, "hit": false},
+              "top3": {"score": "1-0", "probability": 13, "hit": false}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026年6月13日",
+      "dateKey": "20260613",
+      "matches": [
+        {
+          "id": "qatar-vs-switzerland",
+          "homeTeam": "卡塔尔",
+          "homeFlag": "🇶🇦",
+          "awayTeam": "瑞士",
+          "awayFlag": "🇨🇭",
+          "group": "B组",
+          "actualScore": null,
+          "hasResult": false,
+          "predictions": [
+            {
+              "model": "Gemini",
+              "homeWin": 14,
+              "draw": 26,
+              "awayWin": 60,
+              "top1": {"score": "0-2", "probability": 22, "hit": null},
+              "top2": {"score": "1-2", "probability": 16, "hit": null},
+              "top3": {"score": "0-1", "probability": 14, "hit": null}
+            },
+            {
+              "model": "GPT",
+              "homeWin": 14,
+              "draw": 24,
+              "awayWin": 62,
+              "top1": {"score": "0-2", "probability": 18, "hit": null},
+              "top2": {"score": "1-2", "probability": 15, "hit": null},
+              "top3": {"score": "0-1", "probability": 13, "hit": null}
+            },
+            {
+              "model": "DeepSeek",
+              "homeWin": 14.5,
+              "draw": 26.8,
+              "awayWin": 58.7,
+              "top1": {"score": "0-2", "probability": 28.1, "hit": null},
+              "top2": {"score": "0-1", "probability": 23.4, "hit": null},
+              "top3": {"score": "1-2", "probability": 14.9, "hit": null}
+            },
+            {
+              "model": "智谱",
+              "homeWin": 12,
+              "draw": 23,
+              "awayWin": 65,
+              "top1": {"score": "0-2", "probability": 24, "hit": null},
+              "top2": {"score": "0-1", "probability": 19, "hit": null},
+              "top3": {"score": "1-2", "probability": 12, "hit": null}
+            }
+          ]
+        },
+        {
+          "id": "brazil-vs-morocco",
+          "homeTeam": "巴西",
+          "homeFlag": "🇧🇷",
+          "awayTeam": "摩洛哥",
+          "awayFlag": "🇲🇦",
+          "group": "C组",
+          "actualScore": null,
+          "hasResult": false,
+          "predictions": [
+            {
+              "model": "Gemini",
+              "homeWin": 56,
+              "draw": 26,
+              "awayWin": 18,
+              "top1": {"score": "2-1", "probability": 22, "hit": null},
+              "top2": {"score": "1-0", "probability": 17, "hit": null},
+              "top3": {"score": "2-0", "probability": 14, "hit": null}
+            },
+            {
+              "model": "GPT",
+              "homeWin": 51,
+              "draw": 28,
+              "awayWin": 21,
+              "top1": {"score": "1-0", "probability": 16, "hit": null},
+              "top2": {"score": "1-1", "probability": 15, "hit": null},
+              "top3": {"score": "2-1", "probability": 13, "hit": null}
+            },
+            {
+              "model": "DeepSeek",
+              "homeWin": 65.3,
+              "draw": 23.2,
+              "awayWin": 11.5,
+              "top1": {"score": "2-0", "probability": 31.5, "hit": null},
+              "top2": {"score": "1-0", "probability": 25.8, "hit": null},
+              "top3": {"score": "2-1", "probability": 16.3, "hit": null}
+            },
+            {
+              "model": "智谱",
+              "homeWin": 51,
+              "draw": 29,
+              "awayWin": 20,
+              "top1": {"score": "2-1", "probability": 23, "hit": null},
+              "top2": {"score": "1-1", "probability": 19, "hit": null},
+              "top3": {"score": "2-0", "probability": 14, "hit": null}
+            }
+          ]
+        },
+        {
+          "id": "haiti-vs-scotland",
+          "homeTeam": "海地",
+          "homeFlag": "🇭🇹",
+          "awayTeam": "苏格兰",
+          "awayFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+          "group": "C组",
+          "actualScore": null,
+          "hasResult": false,
+          "predictions": [
+            {
+              "model": "Gemini",
+              "homeWin": 18,
+              "draw": 25,
+              "awayWin": 57,
+              "top1": {"score": "0-2", "probability": 23, "hit": null},
+              "top2": {"score": "1-2", "probability": 17, "hit": null},
+              "top3": {"score": "0-1", "probability": 13, "hit": null}
+            },
+            {
+              "model": "GPT",
+              "homeWin": 18,
+              "draw": 26,
+              "awayWin": 56,
+              "top1": {"score": "0-1", "probability": 18, "hit": null},
+              "top2": {"score": "1-2", "probability": 15, "hit": null},
+              "top3": {"score": "0-2", "probability": 13, "hit": null}
+            },
+            {
+              "model": "DeepSeek",
+              "homeWin": 18.6,
+              "draw": 24.9,
+              "awayWin": 56.5,
+              "top1": {"score": "0-1", "probability": 28.7, "hit": null},
+              "top2": {"score": "0-2", "probability": 19.3, "hit": null},
+              "top3": {"score": "1-1", "probability": 16.8, "hit": null}
+            },
+            {
+              "model": "智谱",
+              "homeWin": 15,
+              "draw": 25,
+              "awayWin": 60,
+              "top1": {"score": "0-2", "probability": 22, "hit": null},
+              "top2": {"score": "1-2", "probability": 18, "hit": null},
+              "top3": {"score": "0-1", "probability": 14, "hit": null}
+            }
+          ]
+        },
+        {
+          "id": "australia-vs-turkey",
+          "homeTeam": "澳大利亚",
+          "homeFlag": "🇦🇺",
+          "awayTeam": "土耳其",
+          "awayFlag": "🇹🇷",
+          "group": "D组",
+          "actualScore": null,
+          "hasResult": false,
+          "predictions": [
+            {
+              "model": "Gemini",
+              "homeWin": 26,
+              "draw": 32,
+              "awayWin": 42,
+              "top1": {"score": "1-1", "probability": 18, "hit": null},
+              "top2": {"score": "0-1", "probability": 15, "hit": null},
+              "top3": {"score": "1-2", "probability": 11, "hit": null}
+            },
+            {
+              "model": "GPT",
+              "homeWin": 24,
+              "draw": 29,
+              "awayWin": 47,
+              "top1": {"score": "1-1", "probability": 16, "hit": null},
+              "top2": {"score": "0-1", "probability": 15, "hit": null},
+              "top3": {"score": "1-2", "probability": 13, "hit": null}
+            },
+            {
+              "model": "DeepSeek",
+              "homeWin": 21.5,
+              "draw": 24.3,
+              "awayWin": 54.2,
+              "top1": {"score": "0-1", "probability": 24.8, "hit": null},
+              "top2": {"score": "0-2", "probability": 19.2, "hit": null},
+              "top3": {"score": "1-1", "probability": 17.1, "hit": null}
+            },
+            {
+              "model": "智谱",
+              "homeWin": 33,
+              "draw": 37,
+              "awayWin": 30,
+              "top1": {"score": "1-1", "probability": 22, "hit": null},
+              "top2": {"score": "0-1", "probability": 18, "hit": null},
+              "top3": {"score": "1-0", "probability": 14, "hit": null}
             }
           ]
         }
@@ -214,10 +412,6 @@
     }
   ],
   "pendingMatches": [
-    {"date": "6月13日", "homeTeam": "卡塔尔", "homeFlag": "🇶🇦", "awayTeam": "瑞士", "awayFlag": "🇨🇭", "group": "B组"},
-    {"date": "6月13日", "homeTeam": "巴西", "homeFlag": "🇧🇷", "awayTeam": "摩洛哥", "awayFlag": "🇲🇦", "group": "C组"},
-    {"date": "6月13日", "homeTeam": "海地", "homeFlag": "🇭🇹", "awayTeam": "苏格兰", "awayFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "group": "C组"},
-    {"date": "6月13日", "homeTeam": "澳大利亚", "homeFlag": "🇦🇺", "awayTeam": "土耳其", "awayFlag": "🇹🇷", "group": "D组"},
     {"date": "6月14日", "homeTeam": "德国", "homeFlag": "🇩🇪", "awayTeam": "库拉索", "awayFlag": "🇨🇼", "group": "E组"},
     {"date": "6月14日", "homeTeam": "荷兰", "homeFlag": "🇳🇱", "awayTeam": "日本", "awayFlag": "🇯🇵", "group": "F组"},
     {"date": "6月14日", "homeTeam": "科特迪瓦", "homeFlag": "🇨🇮", "awayTeam": "厄瓜多尔", "awayFlag": "🇪🇨", "group": "E组"},
@@ -238,34 +432,34 @@
   "modelAccuracy": [
     {
       "model": "Gemini",
-      "winLossAccuracy": "2/2 (100%)",
-      "scoreHits": "2/2",
+      "winLossAccuracy": "4/4 (100%)",
+      "scoreHits": "3/4",
       "top1Hits": 1,
-      "top2Hits": 1,
+      "top2Hits": 2,
       "top3Hits": 0
     },
     {
       "model": "GPT",
-      "winLossAccuracy": "2/2 (100%)",
-      "scoreHits": "2/2",
+      "winLossAccuracy": "4/4 (100%)",
+      "scoreHits": "3/4",
       "top1Hits": 0,
-      "top2Hits": 1,
+      "top2Hits": 2,
       "top3Hits": 1
     },
     {
       "model": "DeepSeek",
-      "winLossAccuracy": "1/2 (50%)",
-      "scoreHits": "1/2",
+      "winLossAccuracy": "3/4 (75%)",
+      "scoreHits": "2/4",
       "top1Hits": 1,
-      "top2Hits": 0,
+      "top2Hits": 1,
       "top3Hits": 0
     },
     {
       "model": "智谱",
-      "winLossAccuracy": "2/2 (100%)",
-      "scoreHits": "2/2",
+      "winLossAccuracy": "4/4 (100%)",
+      "scoreHits": "3/4",
       "top1Hits": 1,
-      "top2Hits": 0,
+      "top2Hits": 1,
       "top3Hits": 1
     }
   ]
