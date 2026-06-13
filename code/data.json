@@ -432,7 +432,7 @@
   "modelAccuracy": [
     {
       "model": "Gemini",
-      "winLossAccuracy": "4/4 (100%)",
+      "winLossAccuracy": "3/4 (75%)",
       "scoreHits": "3/4",
       "top1Hits": 1,
       "top2Hits": 2,
@@ -440,7 +440,7 @@
     },
     {
       "model": "GPT",
-      "winLossAccuracy": "4/4 (100%)",
+      "winLossAccuracy": "3/4 (75%)",
       "scoreHits": "3/4",
       "top1Hits": 0,
       "top2Hits": 2,
@@ -456,7 +456,7 @@
     },
     {
       "model": "智谱",
-      "winLossAccuracy": "4/4 (100%)",
+      "winLossAccuracy": "3/4 (75%)",
       "scoreHits": "3/4",
       "top1Hits": 1,
       "top2Hits": 1,
