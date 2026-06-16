@@ -288,8 +288,8 @@
           "predictions": [
             {"model": "Gemini", "homeWin": 58, "draw": 26, "awayWin": 16, "top1": {"score": "2-0", "probability": 22, "hit": null}, "top2": {"score": "1-0", "probability": 17, "hit": null}, "top3": {"score": "2-1", "probability": 14, "hit": null}},
             {"model": "GPT", "homeWin": 66, "draw": 23, "awayWin": 11, "top1": {"score": "1-0", "probability": 19, "hit": null}, "top2": {"score": "2-0", "probability": 17, "hit": null}, "top3": {"score": "2-1", "probability": 13, "hit": null}},
-            {"model": "DeepSeek", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}},
-            {"model": "智谱", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}}
+            {"model": "DeepSeek", "homeWin": 53.8, "draw": 25.8, "awayWin": 20.4, "top1": {"score": "1-0", "probability": 32.1, "hit": null}, "top2": {"score": "2-0", "probability": 18.5, "hit": null}, "top3": {"score": "1-1", "probability": 17.7, "hit": null}},
+            {"model": "智谱", "homeWin": 53, "draw": 27, "awayWin": 20, "top1": {"score": "1-0", "probability": 22, "hit": null}, "top2": {"score": "2-0", "probability": 16, "hit": null}, "top3": {"score": "1-1", "probability": 12, "hit": null}}
           ]
         }
       ]
