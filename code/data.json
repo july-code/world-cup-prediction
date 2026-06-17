@@ -157,10 +157,10 @@
           {"model": "智谱", "homeWin": 72, "draw": 20, "awayWin": 8, "top1": {"score": "2-0", "probability": 19, "hit": null}, "top2": {"score": "2-1", "probability": 15, "hit": null}, "top3": {"score": "1-0", "probability": 11, "hit": null}}
         ]},
         {"id": "austria-vs-jordan", "homeTeam": "奥地利", "homeFlag": "🇦🇹", "awayTeam": "约旦", "awayFlag": "🇯🇴", "group": "J组", "actualScore": null, "hasResult": false, "predictions": [
-          {"model": "Gemini", "homeWin": 66, "draw": 22, "awayWin": 12, "top1": {"score": "2-0", "probability": 23, "hit": null}, "top2": {"score": "1-0", "probability": 19, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}},
-          {"model": "GPT", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}},
-          {"model": "DeepSeek", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}},
-          {"model": "智谱", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}}
+          {"model": "Gemini", "homeWin": 66, "draw": 22, "awayWin": 12, "top1": {"score": "2-0", "probability": 23, "hit": null}, "top2": {"score": "1-0", "probability": 19, "hit": null}, "top3": {"score": "2-1", "probability": 12, "hit": null}},
+          {"model": "GPT", "homeWin": 68, "draw": 21, "awayWin": 11, "top1": {"score": "2-0", "probability": 24, "hit": null}, "top2": {"score": "1-0", "probability": 17, "hit": null}, "top3": {"score": "2-1", "probability": 15, "hit": null}},
+          {"model": "DeepSeek", "homeWin": 70, "draw": 18, "awayWin": 12, "top1": {"score": "2-0", "probability": 22, "hit": null}, "top2": {"score": "3-0", "probability": 18, "hit": null}, "top3": {"score": "2-1", "probability": 15, "hit": null}},
+          {"model": "智谱", "homeWin": 70, "draw": 22, "awayWin": 8, "top1": {"score": "2-0", "probability": 21, "hit": null}, "top2": {"score": "1-0", "probability": 16, "hit": null}, "top3": {"score": "2-1", "probability": 9, "hit": null}}
         ]}
       ]
     }
