@@ -177,20 +177,20 @@
         {"id": "england-vs-croatia", "homeTeam": "英格兰", "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "awayTeam": "克罗地亚", "awayFlag": "🇭🇷", "group": "L组", "actualScore": null, "hasResult": false, "predictions": [
           {"model": "Gemini", "homeWin": 54, "draw": 28, "awayWin": 18, "top1": {"score": "2-1", "probability": 19, "hit": null}, "top2": {"score": "1-1", "probability": 16, "hit": null}, "top3": {"score": "2-0", "probability": 13, "hit": null}},
           {"model": "GPT", "homeWin": 48, "draw": 29, "awayWin": 23, "top1": {"score": "1-0", "probability": 17, "hit": null}, "top2": {"score": "1-1", "probability": 16, "hit": null}, "top3": {"score": "2-1", "probability": 14, "hit": null}},
-          {"model": "DeepSeek", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}},
-          {"model": "智谱", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}}
+          {"model": "DeepSeek", "homeWin": 68, "draw": 20, "awayWin": 12, "top1": {"score": "2-1", "probability": 21, "hit": null}, "top2": {"score": "2-0", "probability": 19, "hit": null}, "top3": {"score": "1-0", "probability": 16, "hit": null}},
+          {"model": "智谱", "homeWin": 64, "draw": 24, "awayWin": 12, "top1": {"score": "2-0", "probability": 19, "hit": null}, "top2": {"score": "2-1", "probability": 15, "hit": null}, "top3": {"score": "1-0", "probability": 12, "hit": null}}
         ]},
         {"id": "ghana-vs-panama", "homeTeam": "加纳", "homeFlag": "🇬🇭", "awayTeam": "巴拿马", "awayFlag": "🇵🇦", "group": "L组", "actualScore": null, "hasResult": false, "predictions": [
-          {"model": "Gemini", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}},
-          {"model": "GPT", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}},
-          {"model": "DeepSeek", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}},
-          {"model": "智谱", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}}
+          {"model": "Gemini", "homeWin": 28, "draw": 42, "awayWin": 30, "top1": {"score": "1-1", "probability": 22, "hit": null}, "top2": {"score": "0-1", "probability": 17, "hit": null}, "top3": {"score": "1-0", "probability": 15, "hit": null}},
+          {"model": "GPT", "homeWin": 41, "draw": 32, "awayWin": 27, "top1": {"score": "1-1", "probability": 21, "hit": null}, "top2": {"score": "1-0", "probability": 16, "hit": null}, "top3": {"score": "0-1", "probability": 14, "hit": null}},
+          {"model": "DeepSeek", "homeWin": 25, "draw": 30, "awayWin": 45, "top1": {"score": "1-1", "probability": 22, "hit": null}, "top2": {"score": "0-1", "probability": 18, "hit": null}, "top3": {"score": "1-0", "probability": 15, "hit": null}},
+          {"model": "智谱", "homeWin": 38, "draw": 35, "awayWin": 27, "top1": {"score": "1-1", "probability": 17, "hit": null}, "top2": {"score": "1-0", "probability": 13, "hit": null}, "top3": {"score": "0-1", "probability": 9, "hit": null}}
         ]},
         {"id": "uzbekistan-vs-colombia", "homeTeam": "乌兹别克斯坦", "homeFlag": "🇺🇿", "awayTeam": "哥伦比亚", "awayFlag": "🇨🇴", "group": "K组", "actualScore": null, "hasResult": false, "predictions": [
-          {"model": "Gemini", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}},
-          {"model": "GPT", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}},
-          {"model": "DeepSeek", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}},
-          {"model": "智谱", "homeWin": null, "draw": null, "awayWin": null, "top1": {"score": null, "probability": null, "hit": null}, "top2": {"score": null, "probability": null, "hit": null}, "top3": {"score": null, "probability": null, "hit": null}}
+          {"model": "Gemini", "homeWin": 14, "draw": 24, "awayWin": 62, "top1": {"score": "0-2", "probability": 21, "hit": null}, "top2": {"score": "1-2", "probability": 16, "hit": null}, "top3": {"score": "0-1", "probability": 13, "hit": null}},
+          {"model": "GPT", "homeWin": 13, "draw": 24, "awayWin": 63, "top1": {"score": "0-1", "probability": 21, "hit": null}, "top2": {"score": "0-2", "probability": 18, "hit": null}, "top3": {"score": "1-1", "probability": 14, "hit": null}},
+          {"model": "DeepSeek", "homeWin": 17, "draw": 20, "awayWin": 63, "top1": {"score": "0-2", "probability": 21, "hit": null}, "top2": {"score": "0-1", "probability": 19, "hit": null}, "top3": {"score": "1-2", "probability": 16, "hit": null}},
+          {"model": "智谱", "homeWin": 12, "draw": 20, "awayWin": 68, "top1": {"score": "0-2", "probability": 22, "hit": null}, "top2": {"score": "0-1", "probability": 16, "hit": null}, "top3": {"score": "1-2", "probability": 9, "hit": null}}
         ]}
       ]
     }
